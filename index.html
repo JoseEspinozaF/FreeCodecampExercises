@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>FreeCodeCampExcercies</title>
+</head>
+
+<body>
+    <header id="Cabezera">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+        <h1>Legacy Responsive Web Design</h1>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#RD">Principios de diseño web responsivo </a>
+        <a href="#CSSFLEX">CSS flexbox</a>
+        <a href="#CSSGRID">CCSS grid</a>
+    </div>
+
+
+    <div id="main">
+        <div class="resposiveDesing-Container">
+            <h1 id="RD">Principios de diseño web responsivo</h1>
+            <div class="mediaQuery resposiveAltura">
+                <h2>"Crea un media query"</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl,
+                    gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis
+                    tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+                    Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula
+                    ultricies diam, at aliquet velit libero a dui.</p>
+            </div>
+            <div class="imgResponsive resposiveAltura">
+                <h2>"Imagen Responsive"</h2>
+                <img class="responsive-img" src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg"
+                    alt="freeCodeCamp stickers set">
+                <img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+            </div>
+            <div class="pantallaRetina resposiveAltura">
+                <h2>"Usa una imagen retina para pantallas de alta resolución"</h2>
+                <img src="https://s3.amazonaws.com/freecodecamp/FCCStickers-CamperBot200x200.jpg"
+                    alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
+            </div>
+            <div class="tipografiaResponisive resposiveAltura">
+                <h2>"tipografía responsiva"</h2>
+                <h2>Importantus Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl,
+                    gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis
+                    tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+                    Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula
+                    ultricies diam, at aliquet velit libero a dui.</p>
+            </div>
+        </div>
+        <div class="cssFlexbox" id="CSSFLEX">
+            <h1>CSS Flexbox</h1>
+            <div class="positionTwoBox resposiveAltura">
+                <h3>"Utiliza display: flex para posicionar dos cajas"</h3>
+                <div id="box-container">
+                    <div id="box-1"></div>
+                    <div id="box-2"></div>
+                </div>
+            </div>
+            <div class="Tweetembed  ">
+                <h3>"Agrega superpoderes flex al tweet incrustado"</h3>
+                <header>
+                    <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg"
+                        alt="Quincy Larson's profile picture" class="profile-thumbnail">
+                    <div class="profile-name">
+                        <h3>Quincy Larson</h3>
+                        <h4>@ossia</h4>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </header>
+                <div id="inner">
+                    <p>I meet so many people who are in search of that one trick that will help them work smart. Even if
+                        you work smart, you still have to work hard.</p>
+                    <span class="date">1:32 PM - 12 Jan 2018</span>
+                    <hr>
+                </div>
+                <footer>
+                    <div class="stats">
+                        <div class="Retweets">
+                            <strong>107</strong> Retweets
+                        </div>
+                        <div class="likes">
+                            <strong>431</strong> Likes
+                        </div>
+                    </div>
+                    <div class="cta">
+                        <button class="share-btn">Share</button>
+                        <button class="retweet-btn">Retweet</button>
+                        <button class="like-btn">Like</button>
+                    </div>
+                </footer>
+            </div>
+            <div class="row-reverse resposiveAltura">
+                <h3>"Utiliza la propiedad flex-direction para hacer una fila"</h3>
+                <div id="box-container">
+                    <div id="box-1"></div>
+                    <div id="box-2"></div>
+                </div>
+            </div>
+            <div class="Flex_Shrink resposiveAltura">
+                <h3>"flex-shrink para reducir elementos"</h3>
+                <div id="box-containerr">
+                    <div id="box-11"></div>
+                    <div id="box-22"></div>
+                </div>
+            </div>
+        </div>
+        <div class="CSS-GRid" id="CSSGRID">
+            <h1>CSS Grid</h1>
+            <div class="firstPassCSSGRID resposiveAltura">
+                <h3>"Create first Grid"</h3>
+                <div class="container">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                    <div class="d3">3</div>
+                    <div class="d4">4</div>
+                    <div class="d5">5</div>
+                </div>
+            </div>
+            <div class="gridTempalteColumns resposiveAltura">
+                <h3>"Agrega columnas con grid-template-columns"</h3>
+                <div class="container">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                    <div class="d3">3</div>
+                    <div class="d4">4</div>
+                    <div class="d5">5</div>
+                </div>
+            </div>
+            <div class="gridTempalteRows resposiveAltura">
+                <h3>"Agrega Filas con grid-template-Rows"</h3>
+                <div class="container">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                    <div class="d3">3</div>
+                    <div class="d4">4</div>
+                    <div class="d5">5</div>
+                </div>
+            </div>
+            <div class="unidadescssGRid resposiveAltura">
+                <h3>"Usa unidades CSS Grid para cambiar el tamaño de las columnas y filas"</h3>
+                <div class="container ">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                    <div class="d3">3</div>
+                    <div class="d4">4</div>
+                    <div class="d5">5</div>
+                </div>
+            </div>
+            <div class="espacioColumnas resposiveAltura">
+                <h3>"Crea un espacio entre columnas y filas "</h3>
+                <div class="container">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                    <div class="d3">3</div>
+                    <div class="d4">4</div>
+                    <div class="d5">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
